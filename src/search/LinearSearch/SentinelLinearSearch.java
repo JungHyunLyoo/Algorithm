@@ -7,13 +7,29 @@ public class SentinelLinearSearch {
 	
 	static int sentinelLinearSearch(int[] x,int size,int key) {
 		x[size]=key;
-		int i=0;
-		while(true) {
-			if(x[i]==key) 
-				break;
-			i++;
+		
+		System.out.println("select a number that means way to search");
+		System.out.println("1.for");
+		System.out.println("2.while");
+		int way=stdIn.nextInt();
+		
+		if(way==1) {
+			int i;
+			for(i=0;x[i]!=key;i++);
+			return i==size?-1:i;
 		}
-		return i==size?-1:i;
+		else if(way==2) {
+			int i=0;
+			while(true) {
+				if(x[i]==key) 
+					break;
+				i++;
+			}
+			return i==size?-1:i;
+		}
+		else {
+			return -2;
+		}
 	}
 	
 	public static void main(String[] args) {
