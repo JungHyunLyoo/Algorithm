@@ -39,6 +39,7 @@ public class BinarySearch {
 		int[] x=new int[size+1];
 		
 
+		System.out.println("please insert number by asc:");
 		System.out.println("x[0]:");
 		x[0]=stdIn.nextInt();
 		for(int i=1;i<size;i++) {
