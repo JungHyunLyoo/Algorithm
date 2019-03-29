@@ -23,7 +23,7 @@ public class StringBinarySearch {
 		System.out.println("what word do you want to find?");
 		String key=stdIn.next();
 		
-		int result=Arrays.binarySearch(x, key);
+		int result=Arrays.binarySearch(x, key);//natural ordering
 		if(result<0) {
 			System.out.println("not found");			
 		}
