@@ -1,4 +1,4 @@
-package search.binarySearch;
+package search.binarysearch;
 
 public class GenericClassTester {
 

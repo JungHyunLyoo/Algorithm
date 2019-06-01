@@ -1,4 +1,4 @@
-package sort.shellSort;
+package sort.shellsort;
 
 import java.util.Scanner;
 

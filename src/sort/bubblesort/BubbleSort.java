@@ -1,4 +1,4 @@
-package sort.bubbleSort;
+package sort.bubblesort;
 
 import java.util.Scanner;
 
