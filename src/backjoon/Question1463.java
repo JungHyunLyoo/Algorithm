@@ -3,7 +3,7 @@ package backjoon;
 import java.util.Scanner;
 
 public class Question1463 {
-    public static final int MAX_NUM = 1000010;
+    public static final int MAX_NUM = 1000000;
     public static int[] arr = new int[MAX_NUM];
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
